@@ -1,0 +1,48 @@
+#background {
+    background-color: #AE87D6;
+}
+
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.botao a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 325px;
+    height: 53px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+.cadastro {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 325px;
+    height: 53px;
+    border-radius: 30px;
+    border: none;
+}

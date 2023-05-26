@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background{
+    background-color:#AE87D6;
+}
+nav{
+    background: #9b6cca;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+    background: #9b6cca;
+    flex-direction:row-reverse;
+}
+li a:hover{
+    border-radius: 10px;
+    background-color:rgba(183, 166, 247, 0.692) ;
+ }
+ li a{
+
+     color: #9998ffc5;
+     text-decoration: none;
+     padding: 1.5rem;
+     display: inline-block;
+     display: flex;
+     align-items: center;
+     gap: .6rem;
+
+     
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+ }
+.nav-img{
+    padding: 5px;
+    padding-right: 17px;
+}
+.ranking{
+    padding-right: 9px;
+}
+.nav-img{
+    padding: 5px;
+    padding-right: 17px;
+    background: #9b6cca;
+}
+.list{
+    padding-right: 9px;
+}
+.ranking{
+    background: #9b6cca;
+}
+.profile{
+    justify-content: space-between;
+    background: #9b6cca;
+}
+main h2{
+ text-align: center;
+}
+.profile2{
+    margin-top: .5rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+  align-items: center;
+ 
+}
+.user-img{
+ display: flex;
+ justify-content: center;
+}
+.bio{
+    background: #9b6cca;
+    display: flex;
+  padding: 5px;
+}
+.caxa2 h3{
+    display: flex;
+    margin-left: 20px;
+}
+
+.caxa2{
+    padding: 10px;
+    background-color:#9b6cca ;
+}
+
+.bio h5{
+    display: flex;
+  align-items: start;  
+  justify-content: start;
+  margin-left: 20px;
+}
+.caxa3 h3{
+    display: flex;
+    margin-left: 20px;
+}
+.caxa3 img{
+    margin-top: 10px;
+}
+.torneios{
+    background: #9562BD;
+    padding: .5rem;
+}
+.caxa4 h3{
+    display: flex;
+    margin-left: 20px;
+}
+.game{
+    cursor: pointer;
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+    display: inline;
+    margin: 0 10px;
+}
+
+.jogos{
+    background: #9562BD;
+    padding: .5rem;
+}
+.jogos img{
+    margin-top: 10px;
+}
+.capa{
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+    display: inline;
+    margin: 0 10px;
+   cursor: pointer;
+
+}

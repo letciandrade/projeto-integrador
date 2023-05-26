@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #AE87D6;
+}
+
+nav {
+    background: #9b6cca;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+}
+
+li a:hover {
+    border-radius: 10px;
+    background-color: rgba(183, 166, 247, 0.692);
+}
+
+li a {
+
+    color: #9998ffc5;
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 17px;
+}
+
+.ranking {
+    padding-right: 9px;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 17px;
+    background: #9b6cca;
+}
+
+.list {
+    padding-right: 9px;
+    background: #9b6cca;
+}
+
+.ranking {
+    background: #9b6cca;
+}
+
+.profile {
+    justify-content: space-between;
+    background: #9b6cca;
+}
+
+.caixa1{
+    padding: 1rem;
+}
+
+
+.profile3 {
+
+    width: 120px;
+    height: 120px;
+
+}
+
+.user-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-img a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.caixa2 h4 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background: #9b6cca;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.jogos {
+    background: #AE87D6;
+}
+
+
+
+.user1 {
+    font-size: 25px;
+}
+
+.caixa3 {
+    background: #9b6cca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.jogos {
+    margin: 0 10px;
+    border-radius: 25%;
+    display: inline;
+    height: 150px;
+    width: 150px;
+}
+
+main {
+    background-color: #AE87D6;
+    display: flex;
+    flex-direction: column;
+ 
+}
+@media only screen and (max-width:768px){
+    
+    .caixa3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     
+  }
+
+  .user-img{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jogos{
+    margin-bottom: 2rem;
+  }
+}

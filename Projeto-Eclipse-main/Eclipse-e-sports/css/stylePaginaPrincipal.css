@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+
+#background {
+    background-color: #AE87D6;
+}
+
+header {
+    background-color: #9B6CCA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #6E2A8D;
+    border-radius: 10px;
+}
+
+.img {
+    padding: 1rem;
+}
+
+.ranking {
+    margin-left: 2rem;
+}
+
+.torneios {
+    background-color: #9562BD;
+    text-align: center;
+    padding: 2rem;
+}
+
+.comunidades {
+    background-color: #9562BD;
+    text-align: center;
+    padding: 2rem;
+}
+
+button{
+    border: none;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+}
+
+.button {
+    background-color: #AE87D6;
+    border-radius: 30px;
+    width: 200px;
+    height: 175px;
+    border: none;
+    display: inline;
+    margin: 0 2rem;
+}
+
+#lives{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+body {
+    background-color: #AE87D6;
+}
+
+nav {
+    background: #9b6cca;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+
+    flex-direction: row-reverse;
+}
+
+li a:hover {
+    border-radius: 10px;
+    background-color: rgba(183, 166, 247, 0.692);
+}
+main h4{
+font-weight: 400;
+}
+header h3{
+    font-style: normal;
+    font-size: 10px;
+    padding-left: 5px;
+
+}
+li a {
+
+    color: #9998ffc5;
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nav-img {
+    padding: 5px;
+    padding-right: 17px;
+}
+
+.ranking {
+    padding-right: 9px;
+}
+
+.box3 {
+    margin-top: 20px;
+    background-color: #9562BD;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+iframe {
+    padding: 19px;
+}
+.box4{
+   background: #9562BD;
+    width: 100%;
+    padding: 30px;
+}
+.box4 button {
+    display: inline;
+    margin: 0 30px;
+    width: 200px;
+    height: 175px;
+    background: #AE87D6;
+    border-radius: 30px;
+    border: none;
+}
+.box4 img{
+    border-radius: 20px;
+}
+.jogos{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+@media only screen and (max-width:768px){
+    
+      .button{
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width:320px){
+    .box4 button{
+        margin-bottom: 20px;
+    }
+.live1, .live2{
+    display:flex;
+    flex-direction: column;
+    width:320px;
+    /* height: 200px; */
+    }
+}

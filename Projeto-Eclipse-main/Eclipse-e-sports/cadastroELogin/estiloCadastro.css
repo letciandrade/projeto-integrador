@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@media(min-width:56px){
+    :root{
+        --branco:#fff;
+        --roxo:#ae87d6;
+        --preto:#000;
+    }
+    
+    
+    body{
+        background-color: var(--roxo);
+        font-family: 'Inter', sans-serif;
+    }
+    
+    
+    
+    input{
+        border: none;
+        border-radius: 5rem;
+        text-align: center;
+        background-color: var(--branco);
+        width: 20rem;
+        height: 3rem;
+    }
+    
+    .submit button{
+        cursor: pointer;
+        border: none;
+       position: relative;
+       top: 0.7rem;
+       color: var(--preto);
+       background-color: var(--branco);
+       font-family: 'Inter', sans-serif;
+       font-size: 1.1rem;
+       
+    }
+    .submit {
+        cursor: pointer;
+        border: none;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        border-radius: 4rem;
+        height: 3rem;
+        width: 10rem;
+        background-color: var(--branco);
+    }
+    
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    h4{
+        font-weight: 500;
+    }
+    
+    .redes-sociais{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .ouUse{
+        cursor:pointer;
+    }
+}
+
+

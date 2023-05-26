@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #AE87D6;
+}
+nav{
+    background: #9b6cca;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+
+    flex-direction:row-reverse;
+}
+li a:hover{
+    border-radius: 10px;
+    background-color:rgba(183, 166, 247, 0.692) ; 
+ }
+ li a{
+
+     color: #9998ffc5;
+     text-decoration: none;
+     padding: 1.5rem;
+     display: inline-block;
+     display: flex;
+     align-items: center;
+     gap: .6rem;
+
+      
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+ }
+.nav-img{
+    padding: 5px;
+    padding-right: 17px;
+}
+.ranking{
+    padding-right: 9px;
+}
+main{
+    background: #9562BD;
+    height: 100%;
+    position: relative;
+}
+.participante{
+    padding-top: 8px;
+ padding-left: 10px;
+}
+.descricao{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 156px;
+    margin-left: 6px;
+    background-color: #6c428d;
+}
+main iframe{
+
+    top: 20px;
+    position:absolute;
+    /* padding-left: 60px; */
+}
+p{
+    margin-left: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.maisLives{
+    display: flex;
+  width: 100%;
+background-color: #9562BD;
+
+}
+.video1,.video2{
+    margin-top: 13px;
+    display: flex;
+    width: 50%;
+    height: 395px;
+    margin: 10px;
+
+}
+.video2{
+right: 89px;
+margin-left: 15px;
+}
+
+@media only screen and (max-width:2560px) {
+    main{
+        width: 100%;
+        height: 63vh;
+    }
+    .participante{
+        width: 120px;
+        height: 120px;
+        padding-top: 8px;
+     padding-left: 30px;
+    }
+    .descricao{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 109px;
+        height: 366px;
+        margin-left: 17px;
+        background-color: #6c428d;
+    }
+    .live1{
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 90vh;
+        height: 50vh;
+    }
+    .comentarios{
+
+        display: inline-flex;
+        flex-direction: column;
+        top: 50px;
+        left: 110vh;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+    .comentario1{
+        /* margin-right: 57px; */
+           width: 598px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario2{
+       
+           width: 658px;
+           height: 55px;
+           margin-top: 8px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario3{
+           /* margin-right: 357px; */
+        
+           margin-top: 8px;
+           width: 288px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario4{
+        
+           margin-top: 8px;
+           width: 448px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario5{
+        
+           margin-top: 8px;
+           width: 298px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comente{
+        display: inline-flex;
+           margin-left: 120vh;
+           height: 55px;
+           width: 550px;
+           background-color: #8450AC;
+           border: none;
+           border-radius: 20px;
+         margin-bottom: 10px;
+           color: aliceblue;
+           text-align: center;
+       }
+       .emoji{
+        width: 50px;
+        height: 50px;
+       top:490px;
+           display: inline-flex;
+           position: absolute;
+           margin-left: 113vh;
+         margin-bottom: 10px;
+       
+       }
+       .maisLives{
+        padding: 50px;
+       }
+       .maisLives iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vh;
+        height: 50vh;
+       }
+
+       .video1,.video2{
+        margin-top: 13px;
+        display: flex;
+        width: 50%;
+        height: 395px;
+        margin: 10px;
+    
+    }
+    .video2{
+    right: 89px;
+    margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    main{
+        height: 70vh;
+    }
+    .participante{
+        width: 90px;
+        height: 90px;
+        padding-top: 8px;
+     padding-left: 10px;
+    }
+    .descricao{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 59px;
+        height: 256px;
+        margin-left: 16px;
+        background-color: #6c428d;
+    }
+    main iframe{
+    top: 20px;
+    position:absolute;
+    margin-left: 90px; 
+    }
+    .comentarios{
+
+        display: inline-flex;
+        flex-direction: column;
+        top: 13px;
+        left: 750px;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+    .comentario1{
+     /* margin-right: 57px; */
+        width: 398px;
+        height: 50px;
+        background-color: #7B4D9F;
+        border-radius: 20px;
+    
+    }
+    .comentario2{
+    
+        width: 458px;
+        height: 50px;
+        margin-top: 8px;
+        background-color: #7B4D9F;
+        border-radius: 20px;
+    
+    }
+    .comentario3{
+        /* margin-right: 357px; */
+     
+        margin-top: 8px;
+        width: 188px;
+        height: 50px;
+        background-color: #7B4D9F;
+        border-radius: 20px;
+    
+    }
+    .comentario4{
+     
+        margin-top: 8px;
+        width: 248px;
+        height: 50px;
+        background-color: #7B4D9F;
+        border-radius: 20px;
+    
+    }
+    .comentario5{
+     
+        margin-top: 8px;
+        width: 198px;
+        height: 50px;
+        background-color: #7B4D9F;
+        border-radius: 20px;
+    
+    }
+    .comente{
+     display: inline-flex;
+        margin-left: 890px;
+        height: 48px;
+        width: 350px;
+        background-color: #8450AC;
+        border: none;
+        border-radius: 20px;
+      margin-bottom: 10px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .emoji{
+    top:350px;
+        display: inline-flex;
+        position: absolute;
+        margin-left: 835px;
+      margin-bottom: 10px;
+    
+    }
+  }
+  
+  @media only screen and (max-width:768px){
+    nav{
+        width: 100%;
+    }
+    main{
+        position: relative;
+      
+    }
+  ul{
+    display: flex;
+    justify-content: start;
+    margin: 0 15px;
+position: absolute;
+margin:0;
+  }
+
+}
+@media only screen and (max-width: 320px) {
+
+    .descricao{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 48px;
+        height: 156px;
+        margin-left: 6px;
+        background-color: #6c428d;
+    }
+
+
+    .video iframe{
+        width: 315px;
+        height: 185px;
+        top: 20px;
+    position:absolute;
+    padding-left: 60px; 
+    }
+
+.comentarios{
+  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    top: 30px;
+    left: 0px;
+    margin-right: 10px;
+position: relative;
+}
+.comentario1{
+ /* position: absolute; */
+margin-right:900px;
+       width: 270px;
+       height: 40px;
+       background-color: #7B4D9F;
+       border-radius: 20px;
+   
+   }
+   .comentario2{
+    
+    width: 278px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #7B4D9F;
+    border-radius: 20px;
+
+}
+.comentario3{
+ 
+    margin-top: 8px;
+    width: 188px;
+    height: 40px;
+    background-color: #7B4D9F;
+    border-radius: 20px;
+
+}
+.comentario4{
+     
+    margin-top: 8px;
+    width: 248px;
+    height: 40px;
+    background-color: #7B4D9F;
+    border-radius: 20px;
+
+}
+.comentario5{
+
+    margin-top: 8px;
+    width: 198px;
+    height: 40px;
+    background-color: #7B4D9F;
+    border-radius: 20px;
+
+}
+.comente{
+    display: inline-flex;
+    margin-top: 45px;
+       margin-left: 60px;
+       height: 40px;
+       width: 240px;
+       background-color:  #8450AC;
+       border: none;
+       border-radius: 20px;
+     margin-bottom: 10px;
+       color: aliceblue;
+       text-align: center;
+   }
+   .emoji{
+    top:495px;
+        display: inline-flex;
+        position: absolute;
+        margin-left: 8px;
+      /* margin-bottom: 10px; */
+    
+    }
+
+    .maisLives{
+        display:flex;
+    
+        top: 780px;
+        width: 100%;
+        height: 135px;
+        background-color: #9562BD;
+        
+    }
+    .video1, .video2{
+        margin-top: 13px;
+        display: flex;
+        width: 138px;
+        height: 95px;
+ 
+    }
+    .video1{
+    right: 89px;
+    padding-right: 15px;
+    margin-left: 9px;
+        
+    }
+    /* .video2{
+        margin-left: 5px;
+    } */
+   
+  }
+  
